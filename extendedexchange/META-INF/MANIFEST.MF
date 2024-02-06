@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Specification-Title: extendedexchange
+Specification-Vendor: FTB Team
+Specification-Version: 1
+Implementation-Title: ExtendedeXchange
+Implementation-Version: 1802.2.7
+Implementation-Vendor: FTB Team
+Implementation-Timestamp: 2022-11-24T09:47:47+0000
+
