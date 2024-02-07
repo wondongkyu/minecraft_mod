@@ -57,7 +57,7 @@
 	"gui.fluxnetworks.flux.transferlimit": "송전 한도",
 	"gui.fluxnetworks.flux.wireless": "무선 활성화",
 	"gui.fluxnetworks.flux.wirelessnetwork": "무선 충전이 효과적입니다",
-	"gui.fluxnetworks.flux.nonwirelessnetwork": "무선 충전이 효과적이지 않습니다",
+	"gui.fluxnetworks.flux.nonwirelessnetwork": "무선 충전이 효과적이지 않습니다.",
 	"gui.fluxnetworks.flux.energy": "에너지",
 	"gui.fluxnetworks.flux.energystored": "저장된 에너지",
 	"gui.fluxnetworks.flux.buffer": "buffer",
