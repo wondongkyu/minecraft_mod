@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "fluxnetworks:block/gargantuan_flux_storage"
+    }
+  }
+}

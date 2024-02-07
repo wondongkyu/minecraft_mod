@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "fluxnetworks:block/herculean_flux_storage"
+    }
+  }
+}

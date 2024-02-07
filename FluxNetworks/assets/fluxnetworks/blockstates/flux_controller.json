@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "fluxnetworks:block/flux_controller"
+    }
+  }
+}

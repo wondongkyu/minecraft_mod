@@ -1,0 +1,11 @@
+{
+  "button": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "fluxnetworks:button",
+        "stream": false
+      }
+    ]
+  }
+}

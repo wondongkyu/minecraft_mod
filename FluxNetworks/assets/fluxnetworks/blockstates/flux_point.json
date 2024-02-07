@@ -1,0 +1,66 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "fluxnetworks:block/flux_point"
+      }
+    },
+    {
+      "when": {
+        "down": "true"
+      },
+      "apply": {
+        "model": "fluxnetworks:block/flux_connection"
+      }
+    },
+    {
+      "when": {
+        "up": "true"
+      },
+      "apply": {
+        "model": "fluxnetworks:block/flux_connection",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "north": "true"
+      },
+      "apply": {
+        "model": "fluxnetworks:block/flux_connection",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "east": "true"
+      },
+      "apply": {
+        "model": "fluxnetworks:block/flux_connection",
+        "x": 90,
+        "y": -90
+      }
+    },
+    {
+      "when": {
+        "south": "true"
+      },
+      "apply": {
+        "model": "fluxnetworks:block/flux_connection",
+        "x": 90,
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "west": "true"
+      },
+      "apply": {
+        "model": "fluxnetworks:block/flux_connection",
+        "x": 90,
+        "y": 90
+      }
+    }
+  ]
+}

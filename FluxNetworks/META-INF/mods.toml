@@ -1,0 +1,39 @@
+modLoader="javafml"
+loaderVersion="[38,)"
+issueTrackerURL="https://github.com/SonarSonic/Flux-Networks/issues"
+license="MIT"
+
+[[mods]]
+    modId="fluxnetworks"
+    version="7.0.8.12"
+    displayName="Flux Networks"
+    displayURL="https://www.curseforge.com/minecraft/mc-mods/flux-networks"
+    authors="Sonar Sonic, BloCamLimb"
+    description='''
+    Wireless Energy Networks
+    '''
+
+[[dependencies.fluxnetworks]]
+    modId="forge"
+    mandatory=true
+    versionRange="[40,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.fluxnetworks]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18,1.19)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.fluxnetworks]]
+    modId="modernui"
+    mandatory=false
+    versionRange="[3.4.7,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.fluxnetworks]]
+    modId="jei"
+    mandatory=false
+    versionRange="[9.7.0,)"
+    ordering="NONE"
+    side="BOTH"

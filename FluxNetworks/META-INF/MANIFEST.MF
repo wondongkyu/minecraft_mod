@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Specification-Title: Flux-Networks
+Specification-Vendor: SonarSonic
+Specification-Version: 1
+Implementation-Title: Flux-Networks
+Implementation-Version: 1.18.2-7.0.8.12
+Implementation-Vendor: SonarSonic, BloCamLimb
+Implementation-Timestamp: 2022-11-18T21:33:14+0800
+
