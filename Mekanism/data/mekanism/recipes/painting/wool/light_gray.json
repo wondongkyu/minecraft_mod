@@ -1,0 +1,1 @@
+{"type":"mekanism:painting","itemInput":{"ingredient":{"type":"forge:difference","base":{"tag":"mekanism:colorable/wool"},"subtracted":{"item":"minecraft:light_gray_wool"}}},"chemicalInput":{"amount":256,"pigment":"mekanism:light_gray"},"output":{"item":"minecraft:light_gray_wool"}}

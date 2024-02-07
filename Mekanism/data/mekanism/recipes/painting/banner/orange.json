@@ -1,0 +1,1 @@
+{"type":"mekanism:painting","itemInput":{"ingredient":{"type":"forge:difference","base":{"tag":"mekanism:colorable/banners"},"subtracted":{"item":"minecraft:orange_banner"}}},"chemicalInput":{"amount":256,"pigment":"mekanism:orange"},"output":{"item":"minecraft:orange_banner"}}

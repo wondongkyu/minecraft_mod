@@ -1,0 +1,1 @@
+{"type":"mekanism:enriching","conditions":[{"modid":"biomesoplenty","type":"forge:mod_loaded"}],"input":{"ingredient":[{"item":"biomesoplenty:pink_daffodil"},{"item":"biomesoplenty:pink_hibiscus"}]},"output":{"item":"minecraft:pink_dye","count":2}}

@@ -1,0 +1,1 @@
+{"type":"mekanism:metallurgic_infusing","conditions":[{"modid":"byg","type":"forge:mod_loaded"}],"itemInput":{"ingredient":{"item":"minecraft:stone_slab"}},"chemicalInput":{"amount":10,"tag":"mekanism:bio"},"output":{"item":"byg:mossy_stone_slab"}}

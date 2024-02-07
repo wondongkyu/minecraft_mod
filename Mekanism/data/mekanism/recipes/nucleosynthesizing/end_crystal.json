@@ -1,0 +1,1 @@
+{"type":"mekanism:nucleosynthesizing","itemInput":{"ingredient":{"item":"minecraft:beacon"}},"gasInput":{"amount":3,"gas":"mekanism:antimatter"},"output":{"item":"minecraft:end_crystal"},"duration":750}

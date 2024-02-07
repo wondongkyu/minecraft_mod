@@ -1,0 +1,1 @@
+{"type":"mekanism:painting","itemInput":{"ingredient":{"type":"forge:difference","base":{"tag":"mekanism:colorable/concrete_powder"},"subtracted":{"item":"minecraft:orange_concrete_powder"}}},"chemicalInput":{"amount":32,"pigment":"mekanism:orange"},"output":{"item":"minecraft:orange_concrete_powder"}}

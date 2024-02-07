@@ -1,0 +1,1 @@
+{"type":"mekanism:painting","itemInput":{"ingredient":{"type":"forge:difference","base":{"tag":"mekanism:colorable/terracotta"},"subtracted":{"item":"minecraft:black_terracotta"}}},"chemicalInput":{"amount":32,"pigment":"mekanism:black"},"output":{"item":"minecraft:black_terracotta"}}

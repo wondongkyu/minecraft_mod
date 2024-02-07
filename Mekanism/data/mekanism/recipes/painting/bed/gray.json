@@ -1,0 +1,1 @@
+{"type":"mekanism:painting","itemInput":{"ingredient":{"type":"forge:difference","base":{"tag":"mekanism:colorable/beds"},"subtracted":{"item":"minecraft:gray_bed"}}},"chemicalInput":{"amount":256,"pigment":"mekanism:gray"},"output":{"item":"minecraft:gray_bed"}}
