@@ -60,8 +60,8 @@
 	"gui.fluxnetworks.flux.nonwirelessnetwork": "무선 충전이 효과적이지 않습니다",
 	"gui.fluxnetworks.flux.energy": "에너지",
 	"gui.fluxnetworks.flux.energystored": "저장된 에너지",
-	"gui.fluxnetworks.flux.buffer": "완충기",
-	"gui.fluxnetworks.flux.internalbuffer": "내부 완충기",
+	"gui.fluxnetworks.flux.buffer": "buffer",
+	"gui.fluxnetworks.flux.internalbuffer": "internal buffer",
 	"gui.fluxnetworks.flux.unlimited": "제한없음",
 	"gui.fluxnetworks.flux.forcedloading": "강제 로딩",
 	"gui.fluxnetworks.flux.chunkunloaded": "청크 비로딩",
@@ -118,8 +118,8 @@
 
 	"gui.fluxnetworks.slot.main": "메인 인벤토리 (비활성화)",
 	"gui.fluxnetworks.slot.hotbar": "단축바 슬롯",
-	"gui.fluxnetworks.slot.mainhand": "주요 손",
-	"gui.fluxnetworks.slot.offhand": "비주요 손",
+	"gui.fluxnetworks.slot.mainhand": "main hand",
+	"gui.fluxnetworks.slot.offhand": "off hand",
 	"gui.fluxnetworks.slot.armor": "무기 슬롯",
 	"gui.fluxnetworks.slot.curios": "Curios Slots",
 
