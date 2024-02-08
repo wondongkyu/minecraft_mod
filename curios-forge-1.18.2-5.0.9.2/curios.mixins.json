@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "top.theillusivec4.curios.mixin.core",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "curios.refmap.json",
+  "mixins": [
+    "MixinApplyBonusCount",
+    "MixinEnderMan",
+    "MixinLivingEntity",
+    "MixinPiglinAi",
+    "MixinPowderSnowBlock",
+    "MixinShearsItem"
+  ],
+  "minVersion": "0.8"
+}

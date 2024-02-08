@@ -1,0 +1,46 @@
+{
+  "mappings": {
+    "top/theillusivec4/curios/mixin/core/MixinPowderSnowBlock": {
+      "canEntityWalkOnPowderSnow": "Lnet/minecraft/world/level/block/PowderSnowBlock;m_154255_(Lnet/minecraft/world/entity/Entity;)Z"
+    },
+    "top/theillusivec4/curios/mixin/core/MixinLivingEntity": {
+      "canFreeze()Z": "Lnet/minecraft/world/entity/LivingEntity;m_142079_()Z"
+    },
+    "top/theillusivec4/curios/mixin/core/MixinShearsItem": {
+      "interactLivingEntity": "Lnet/minecraft/world/item/ShearsItem;m_6880_(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResult;"
+    },
+    "top/theillusivec4/curios/mixin/core/MixinApplyBonusCount": {
+      "run": "Lnet/minecraft/world/level/storage/loot/functions/ApplyBonusCount;m_7372_(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/storage/loot/LootContext;)Lnet/minecraft/world/item/ItemStack;",
+      "net/minecraft/world/item/enchantment/EnchantmentHelper.getItemEnchantmentLevel(Lnet/minecraft/world/item/enchantment/Enchantment;Lnet/minecraft/world/item/ItemStack;)I": "Lnet/minecraft/world/item/enchantment/EnchantmentHelper;m_44843_(Lnet/minecraft/world/item/enchantment/Enchantment;Lnet/minecraft/world/item/ItemStack;)I"
+    },
+    "top/theillusivec4/curios/mixin/core/MixinPiglinAi": {
+      "isWearingGold": "Lnet/minecraft/world/entity/monster/piglin/PiglinAi;m_34808_(Lnet/minecraft/world/entity/LivingEntity;)Z"
+    },
+    "top/theillusivec4/curios/mixin/core/MixinEnderMan": {
+      "isLookingAtMe": "Lnet/minecraft/world/entity/monster/EnderMan;m_32534_(Lnet/minecraft/world/entity/player/Player;)Z"
+    }
+  },
+  "data": {
+    "searge": {
+      "top/theillusivec4/curios/mixin/core/MixinPowderSnowBlock": {
+        "canEntityWalkOnPowderSnow": "Lnet/minecraft/world/level/block/PowderSnowBlock;m_154255_(Lnet/minecraft/world/entity/Entity;)Z"
+      },
+      "top/theillusivec4/curios/mixin/core/MixinLivingEntity": {
+        "canFreeze()Z": "Lnet/minecraft/world/entity/LivingEntity;m_142079_()Z"
+      },
+      "top/theillusivec4/curios/mixin/core/MixinShearsItem": {
+        "interactLivingEntity": "Lnet/minecraft/world/item/ShearsItem;m_6880_(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResult;"
+      },
+      "top/theillusivec4/curios/mixin/core/MixinApplyBonusCount": {
+        "run": "Lnet/minecraft/world/level/storage/loot/functions/ApplyBonusCount;m_7372_(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/storage/loot/LootContext;)Lnet/minecraft/world/item/ItemStack;",
+        "net/minecraft/world/item/enchantment/EnchantmentHelper.getItemEnchantmentLevel(Lnet/minecraft/world/item/enchantment/Enchantment;Lnet/minecraft/world/item/ItemStack;)I": "Lnet/minecraft/world/item/enchantment/EnchantmentHelper;m_44843_(Lnet/minecraft/world/item/enchantment/Enchantment;Lnet/minecraft/world/item/ItemStack;)I"
+      },
+      "top/theillusivec4/curios/mixin/core/MixinPiglinAi": {
+        "isWearingGold": "Lnet/minecraft/world/entity/monster/piglin/PiglinAi;m_34808_(Lnet/minecraft/world/entity/LivingEntity;)Z"
+      },
+      "top/theillusivec4/curios/mixin/core/MixinEnderMan": {
+        "isLookingAtMe": "Lnet/minecraft/world/entity/monster/EnderMan;m_32534_(Lnet/minecraft/world/entity/player/Player;)Z"
+      }
+    }
+  }
+}
