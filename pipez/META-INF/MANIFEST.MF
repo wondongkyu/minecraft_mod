@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Specification-Title: Pipez
+Specification-Vendor: Max Henkel
+Specification-Version: 1
+Implementation-Title: Pipez
+Implementation-Version: 1.18.2-1.1.5
+Implementation-Vendor: Max Henkel
+Implementation-Timestamp: 2022-06-06T08:29:27+0200
+Class-Path: corelib-1.18.2-1.0.2_mapped_official_1.18.2-api.jar
+

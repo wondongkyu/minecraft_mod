@@ -1,0 +1,38 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="All rights reserved"
+issueTrackerURL="https://github.com/henkelmax/pipez/issues"
+[[mods]]
+modId="pipez"
+version="1.18.2-1.1.5"
+displayName="Pipez"
+updateJSONURL="https://maxhenkel.de/update/pipez.json"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/pipez"
+# logoFile="pipez.png"
+# credits=""
+authors="Max Henkel"
+description='''Simple and efficient pipes'''
+[[dependencies.pipez]]
+    modId="forge"
+    mandatory=true
+    versionRange="[40.1.0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.pipez]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2]"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.pipez]]
+    modId="jei"
+    mandatory=false
+    versionRange="[9.7.0.180,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.pipez]]
+    modId="mekanism"
+    mandatory=false
+    versionRange="[1.18.2-10.2.0.459,)"
+    ordering="AFTER"
+    side="BOTH"
