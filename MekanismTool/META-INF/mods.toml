@@ -1,0 +1,20 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+issueTrackerURL="https://github.com/mekanism/Mekanism/issues"
+license="MIT"
+
+[[mods]]
+    modId="mekanismtools"
+    version="10.2.5"
+    displayName="Mekanism: Tools"
+    displayURL="https://aidancbrady.com/mekanism/"
+    authors="Aidancbrady, Thommy101, Thiakil, pupnewfster, dizzyd"
+    credits="unpairedbracket, CyanideX, Ridanisaurus and many others"
+    logoFile="logo.png"
+    description='''Tools module for Mekanism'''
+
+[[dependencies.mekanismtools]]
+    modId="mekanism"
+    mandatory=true
+    versionRange="[10.2.5]"
+    side="BOTH"

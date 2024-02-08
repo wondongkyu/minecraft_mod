@@ -1,0 +1,20 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+issueTrackerURL="https://github.com/mekanism/Mekanism/issues"
+license="MIT"
+
+[[mods]]
+    modId="mekanismgenerators"
+    version="10.2.5"
+    displayName="Mekanism: Generators"
+    displayURL="https://aidancbrady.com/mekanism/"
+    authors="Aidancbrady, Thommy101, Thiakil, pupnewfster, dizzyd"
+    credits="unpairedbracket, CyanideX, Ridanisaurus and many others"
+    logoFile="logo.png"
+    description='''Generators module for Mekanism'''
+
+[[dependencies.mekanismgenerators]]
+    modId="mekanism"
+    mandatory=true
+    versionRange="[10.2.5]"
+    side="BOTH"

@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: MekanismGenerators
+Automatic-Module-Name: mekanismgenerators
+Implementation-Version: 10.2.5
+Specification-Vendor: Mekanism
+Specification-Title: MekanismGenerators
+Implementation-Timestamp: 2022-07-14T23:41:05+0000
+Specification-Version: 10.2.5
+Implementation-Vendor: Mekanism
+
