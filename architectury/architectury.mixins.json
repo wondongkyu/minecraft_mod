@@ -1,0 +1,23 @@
+{
+  "required": true,
+  "package": "dev.architectury.mixin.forge",
+  "plugin": "dev.architectury.plugin.forge.ArchitecturyMixinPlugin",
+  "compatibilityLevel": "JAVA_16",
+  "minVersion": "0.8",
+  "client": [
+    "MixinClientLevel",
+    "MixinMinecraft"
+  ],
+  "mixins": [
+    "MixinChunkSerializer",
+    "MixinEntitySpawnExtension",
+    "MixinFallingBlockEntity",
+    "MixinItemExtension",
+    "MixinRegistryEntry",
+    "MixinWorldEvent"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "architectury-forge-refmap.json"
+}

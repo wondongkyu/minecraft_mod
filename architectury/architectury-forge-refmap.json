@@ -1,0 +1,38 @@
+{
+  "mappings": {
+    "dev/architectury/mixin/forge/MixinClientLevel": {
+      "tickEntities": "Lnet/minecraft/client/multiplayer/ClientLevel;m_104804_()V"
+    },
+    "dev/architectury/mixin/forge/MixinMinecraft": {
+      "Lnet/minecraft/client/Minecraft;gameThread:Ljava/lang/Thread;": "Lnet/minecraft/client/Minecraft;f_91018_:Ljava/lang/Thread;",
+      "destroy": "Lnet/minecraft/client/Minecraft;m_91393_()V",
+      "run": "Lnet/minecraft/client/Minecraft;m_91374_()V"
+    },
+    "dev/architectury/mixin/forge/MixinFallingBlockEntity": {
+      "Lnet/minecraft/world/level/block/Fallable;onLand(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/entity/item/FallingBlockEntity;)V": "Lnet/minecraft/world/level/block/Fallable;m_142216_(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/entity/item/FallingBlockEntity;)V",
+      "tick": "Lnet/minecraft/world/entity/item/FallingBlockEntity;m_8119_()V"
+    },
+    "dev/architectury/mixin/forge/MixinChunkSerializer": {
+      "read": "Lnet/minecraft/world/level/chunk/storage/ChunkSerializer;m_188230_(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/ai/village/poi/PoiManager;Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/world/level/chunk/ProtoChunk;"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "dev/architectury/mixin/forge/MixinClientLevel": {
+        "tickEntities": "Lnet/minecraft/client/multiplayer/ClientLevel;m_104804_()V"
+      },
+      "dev/architectury/mixin/forge/MixinMinecraft": {
+        "Lnet/minecraft/client/Minecraft;gameThread:Ljava/lang/Thread;": "Lnet/minecraft/client/Minecraft;f_91018_:Ljava/lang/Thread;",
+        "destroy": "Lnet/minecraft/client/Minecraft;m_91393_()V",
+        "run": "Lnet/minecraft/client/Minecraft;m_91374_()V"
+      },
+      "dev/architectury/mixin/forge/MixinFallingBlockEntity": {
+        "Lnet/minecraft/world/level/block/Fallable;onLand(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/entity/item/FallingBlockEntity;)V": "Lnet/minecraft/world/level/block/Fallable;m_142216_(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/entity/item/FallingBlockEntity;)V",
+        "tick": "Lnet/minecraft/world/entity/item/FallingBlockEntity;m_8119_()V"
+      },
+      "dev/architectury/mixin/forge/MixinChunkSerializer": {
+        "read": "Lnet/minecraft/world/level/chunk/storage/ChunkSerializer;m_188230_(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/ai/village/poi/PoiManager;Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/world/level/chunk/ProtoChunk;"
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "required": true,
+  "package": "dev.architectury.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "minVersion": "0.7.11",
+  "client": [],
+  "mixins": [
+    "inject.MixinBlock",
+    "inject.MixinBucketItem",
+    "inject.MixinEntityType",
+    "inject.MixinFluid",
+    "inject.MixinFoodPropertiesBuilder",
+    "inject.MixinGameEvent",
+    "inject.MixinItem",
+    "inject.MixinLiquidBlock",
+    "MixinLightningBolt"
+  ],
+  "injectors": {
+    "maxShiftBy": 5,
+    "defaultRequire": 1
+  },
+  "refmap": "architectury-common-refmap.json"
+}

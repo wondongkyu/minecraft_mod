@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Specification-Title: ftblibrary
+Specification-Vendor: FTB Team
+Specification-Version: 1
+Implementation-Title: forge
+Implementation-Version: 1802.3.11-build.177
+Implementation-Vendor: FTB Team
+Implementation-Timestamp: 2023-02-15T08:54:53+0000
+MixinConfigs: ftblibrary-common.mixins.json
+

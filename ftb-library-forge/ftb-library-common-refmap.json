@@ -1,0 +1,40 @@
+{
+  "mappings": {
+    "dev/ftb/mods/ftblibrary/core/mixin/common/ResourceLocationMixin": {
+      "validPathChar": "Lnet/minecraft/resources/ResourceLocation;m_135828_(C)Z",
+      "isValidPath": "Lnet/minecraft/resources/ResourceLocation;m_135841_(Ljava/lang/String;)Z",
+      "isValidNamespace": "Lnet/minecraft/resources/ResourceLocation;m_135843_(Ljava/lang/String;)Z",
+      "validNamespaceChar": "Lnet/minecraft/resources/ResourceLocation;m_135835_(C)Z"
+    },
+    "dev/ftb/mods/ftblibrary/core/mixin/common/CompoundContainerMixin": {
+      "container1": "f_18910_:Lnet/minecraft/world/Container;",
+      "container2": "f_18911_:Lnet/minecraft/world/Container;"
+    },
+    "dev/ftb/mods/ftblibrary/core/mixin/common/ItemMixin": {
+      "craftingRemainingItem": "f_41378_:Lnet/minecraft/world/item/Item;"
+    },
+    "dev/ftb/mods/ftblibrary/core/mixin/common/DisplayInfoMixin": {
+      "icon": "f_14960_:Lnet/minecraft/world/item/ItemStack;"
+    }
+  },
+  "data": {
+    "searge": {
+      "dev/ftb/mods/ftblibrary/core/mixin/common/ResourceLocationMixin": {
+        "validPathChar": "Lnet/minecraft/resources/ResourceLocation;m_135828_(C)Z",
+        "isValidPath": "Lnet/minecraft/resources/ResourceLocation;m_135841_(Ljava/lang/String;)Z",
+        "isValidNamespace": "Lnet/minecraft/resources/ResourceLocation;m_135843_(Ljava/lang/String;)Z",
+        "validNamespaceChar": "Lnet/minecraft/resources/ResourceLocation;m_135835_(C)Z"
+      },
+      "dev/ftb/mods/ftblibrary/core/mixin/common/CompoundContainerMixin": {
+        "container1": "f_18910_:Lnet/minecraft/world/Container;",
+        "container2": "f_18911_:Lnet/minecraft/world/Container;"
+      },
+      "dev/ftb/mods/ftblibrary/core/mixin/common/ItemMixin": {
+        "craftingRemainingItem": "f_41378_:Lnet/minecraft/world/item/Item;"
+      },
+      "dev/ftb/mods/ftblibrary/core/mixin/common/DisplayInfoMixin": {
+        "icon": "f_14960_:Lnet/minecraft/world/item/ItemStack;"
+      }
+    }
+  }
+}

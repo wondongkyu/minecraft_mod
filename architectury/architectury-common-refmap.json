@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "dev/architectury/mixin/MixinLightningBolt": {
+      "Lnet/minecraft/world/level/Level;getEntities(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/phys/AABB;Ljava/util/function/Predicate;)Ljava/util/List;": "Lnet/minecraft/world/level/Level;m_6249_(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/phys/AABB;Ljava/util/function/Predicate;)Ljava/util/List;",
+      "tick": "Lnet/minecraft/world/entity/LightningBolt;m_8119_()V"
+    }
+  },
+  "data": {
+    "searge": {
+      "dev/architectury/mixin/MixinLightningBolt": {
+        "Lnet/minecraft/world/level/Level;getEntities(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/phys/AABB;Ljava/util/function/Predicate;)Ljava/util/List;": "Lnet/minecraft/world/level/Level;m_6249_(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/phys/AABB;Ljava/util/function/Predicate;)Ljava/util/List;",
+        "tick": "Lnet/minecraft/world/entity/LightningBolt;m_8119_()V"
+      }
+    }
+  }
+}
