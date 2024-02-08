@@ -97,7 +97,7 @@
 	"gui.fluxnetworks.label.playername": "사용자 이름",
 	"gui.fluxnetworks.label.playeraccess": "접근 레벨",
 	"gui.fluxnetworks.label.cancelmembership": "멤버쉽 취소",
-	"gui.fluxnetworks.label.you": "너",
+	"gui.fluxnetworks.label.you": "당신",
 	"gui.fluxnetworks.label.detailedview": "네트워크 상세 보기",
 	"gui.fluxnetworks.label.clickabove": "위의 %s을(를) 클릭하세요.",
 	"gui.fluxnetworks.label.playersnetwork": "%s's Network",
@@ -118,8 +118,8 @@
 
 	"gui.fluxnetworks.slot.main": "메인 인벤토리 (비활성화)",
 	"gui.fluxnetworks.slot.hotbar": "단축바 슬롯",
-	"gui.fluxnetworks.slot.mainhand": "main hand",
-	"gui.fluxnetworks.slot.offhand": "off hand",
+	"gui.fluxnetworks.slot.mainhand": "밥먹는손",
+	"gui.fluxnetworks.slot.offhand": "밥 안먹는손",
 	"gui.fluxnetworks.slot.armor": "무기 슬롯",
 	"gui.fluxnetworks.slot.curios": "Curios Slots",
 
@@ -132,7 +132,7 @@
 	"gui.fluxnetworks.security.public": "공개됨",
 	"gui.fluxnetworks.security.private": "비공개됨",
 
-	"gui.fluxnetworks.access.owner": "주인",
+	"gui.fluxnetworks.access.owner": "오너",
 	"gui.fluxnetworks.access.admin": "관리자",
 	"gui.fluxnetworks.access.user": "사용자",
 	"gui.fluxnetworks.access.blocked": "낯선 사람",
