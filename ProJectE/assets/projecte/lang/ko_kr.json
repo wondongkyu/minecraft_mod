@@ -288,7 +288,7 @@
 "pedestal.projecte.repair_talisman.2":"%s 마다 1의 내구도 수리",
 "pedestal.projecte.soul_stone.1":"주변 플레이어 치유",
 "pedestal.projecte.soul_stone.2":"%s 마다 체력 반칸",
-"pedestal.projecte.swrg.1":"근처 몹들에게 번개를 발사",
+"pedestal.projecte.swrg.1":"근처 몹들을 다가오지 못하게 한다(하늘을 날아다닐 수 있다.)",
 "pedestal.projecte.swrg.2":"%s 마다 활성화",
 "pedestal.projecte.time_watch.1":"틱마다 주변 블록에 %s 보너스 틱을 부여합니다.",
 "pedestal.projecte.time_watch.2":"각 틱당 근처의 몹들의 속도가 %s 증가한다.",
