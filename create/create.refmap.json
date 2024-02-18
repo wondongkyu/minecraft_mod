@@ -1,0 +1,226 @@
+{
+  "mappings": {
+    "com/simibubi/create/foundation/mixin/accessor/LivingEntityAccessor": {
+      "spawnItemParticles": "m_21060_(Lnet/minecraft/world/item/ItemStack;I)V"
+    },
+    "com/simibubi/create/foundation/mixin/accessor/GameRendererAccessor": {
+      "getFov": "m_109141_(Lnet/minecraft/client/Camera;FZ)D"
+    },
+    "com/simibubi/create/foundation/mixin/client/HumanoidArmorLayerMixin": {
+      "Lnet/minecraft/world/entity/LivingEntity;getItemBySlot(Lnet/minecraft/world/entity/EquipmentSlot;)Lnet/minecraft/world/item/ItemStack;": "Lnet/minecraft/world/entity/LivingEntity;m_6844_(Lnet/minecraft/world/entity/EquipmentSlot;)Lnet/minecraft/world/item/ItemStack;",
+      "renderArmorPiece(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/EquipmentSlot;ILnet/minecraft/client/model/HumanoidModel;)V": "Lnet/minecraft/client/renderer/entity/layers/HumanoidArmorLayer;m_117118_(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/EquipmentSlot;ILnet/minecraft/client/model/HumanoidModel;)V"
+    },
+    "com/simibubi/create/foundation/mixin/accessor/HumanoidArmorLayerAccessor": {
+      "innerModel": "f_117071_:Lnet/minecraft/client/model/HumanoidModel;",
+      "ARMOR_LOCATION_CACHE": "f_117070_:Ljava/util/Map;",
+      "setPartVisibility": "m_117125_(Lnet/minecraft/client/model/HumanoidModel;Lnet/minecraft/world/entity/EquipmentSlot;)V",
+      "outerModel": "f_117072_:Lnet/minecraft/client/model/HumanoidModel;"
+    },
+    "com/simibubi/create/foundation/mixin/accessor/DispenserBlockAccessor": {
+      "getDispenseMethod": "m_7216_(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/core/dispenser/DispenseItemBehavior;"
+    },
+    "com/simibubi/create/foundation/mixin/accessor/ParticleEngineAccessor": {
+      "providers": "f_107293_:Ljava/util/Map;"
+    },
+    "com/simibubi/create/foundation/mixin/client/MapRendererMapInstanceMixin": {
+      "net.minecraft.client.gui.MapRenderer$MapInstance": "net/minecraft/client/gui/MapRenderer$MapInstance",
+      "draw(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;ZI)V": "Lnet/minecraft/client/gui/MapRenderer$MapInstance;m_93291_(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;ZI)V"
+    },
+    "com/simibubi/create/foundation/mixin/client/CameraMixin": {
+      "Lnet/minecraft/client/Camera;getMaxZoom(D)D": "Lnet/minecraft/client/Camera;m_90566_(D)D",
+      "Lnet/minecraft/client/Camera;setup(Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/world/entity/Entity;ZZF)V": "Lnet/minecraft/client/Camera;m_90575_(Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/world/entity/Entity;ZZF)V"
+    },
+    "com/simibubi/create/foundation/mixin/client/HeavyBootsOnPlayerMixin": {
+      "isUnderWater()Z": "Lnet/minecraft/client/player/LocalPlayer;m_5842_()Z"
+    },
+    "com/simibubi/create/foundation/mixin/client/WindowResizeMixin": {
+      "resizeDisplay()V": "Lnet/minecraft/client/Minecraft;m_5741_()V"
+    },
+    "com/simibubi/create/foundation/mixin/client/FixNormalScalingMixin": {
+      "Lnet/minecraft/util/Mth;fastInvCubeRoot(F)F": "Lnet/minecraft/util/Mth;m_14199_(F)F",
+      "scale(FFF)V": "Lcom/mojang/blaze3d/vertex/PoseStack;m_85841_(FFF)V",
+      "Lcom/mojang/math/Matrix3f;mul(F)V": "Lcom/mojang/math/Matrix3f;m_8156_(F)V"
+    },
+    "com/simibubi/create/foundation/mixin/accessor/AgeableListModelAccessor": {
+      "headParts": "m_5607_()Ljava/lang/Iterable;",
+      "bodyParts": "m_5608_()Ljava/lang/Iterable;"
+    },
+    "com/simibubi/create/foundation/mixin/ClientboundMapItemDataPacketMixin": {
+      "<init>(IBZLjava/util/Collection;Lnet/minecraft/world/level/saveddata/maps/MapItemSavedData$MapPatch;)V": "Lnet/minecraft/network/protocol/game/ClientboundMapItemDataPacket;<init>(IBZLjava/util/Collection;Lnet/minecraft/world/level/saveddata/maps/MapItemSavedData$MapPatch;)V",
+      "write(Lnet/minecraft/network/FriendlyByteBuf;)V": "Lnet/minecraft/network/protocol/game/ClientboundMapItemDataPacket;m_5779_(Lnet/minecraft/network/FriendlyByteBuf;)V",
+      "<init>(Lnet/minecraft/network/FriendlyByteBuf;)V": "Lnet/minecraft/network/protocol/game/ClientboundMapItemDataPacket;<init>(Lnet/minecraft/network/FriendlyByteBuf;)V"
+    },
+    "com/simibubi/create/foundation/mixin/CustomItemUseEffectsMixin": {
+      "shouldTriggerItemUseEffects()Z": "Lnet/minecraft/world/entity/LivingEntity;m_21332_()Z",
+      "triggerItemUseEffects(Lnet/minecraft/world/item/ItemStack;I)V": "Lnet/minecraft/world/entity/LivingEntity;m_21137_(Lnet/minecraft/world/item/ItemStack;I)V",
+      "Lnet/minecraft/world/item/ItemStack;getUseAnimation()Lnet/minecraft/world/item/UseAnim;": "Lnet/minecraft/world/item/ItemStack;m_41780_()Lnet/minecraft/world/item/UseAnim;"
+    },
+    "com/simibubi/create/foundation/mixin/EntityMixin": {
+      "fireImmune()Z": "Lnet/minecraft/world/entity/Entity;m_5825_()Z"
+    },
+    "com/simibubi/create/foundation/mixin/MapItemSavedDataMixin": {
+      "checkBanners(Lnet/minecraft/world/level/BlockGetter;II)V": "Lnet/minecraft/world/level/saveddata/maps/MapItemSavedData;m_77930_(Lnet/minecraft/world/level/BlockGetter;II)V",
+      "save(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/nbt/CompoundTag;": "Lnet/minecraft/world/level/saveddata/maps/MapItemSavedData;m_7176_(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/nbt/CompoundTag;",
+      "load(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/world/level/saveddata/maps/MapItemSavedData;": "Lnet/minecraft/world/level/saveddata/maps/MapItemSavedData;m_164807_(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/world/level/saveddata/maps/MapItemSavedData;"
+    },
+    "com/simibubi/create/foundation/mixin/accessor/NbtAccounterAccessor": {
+      "usage": "f_128919_:J"
+    },
+    "com/simibubi/create/foundation/mixin/accessor/AbstractProjectileDispenseBehaviorAccessor": {
+      "getUncertainty": "m_7101_()F",
+      "getPower": "m_7104_()F",
+      "getProjectile": "m_6895_(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/Position;Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/entity/projectile/Projectile;"
+    },
+    "com/simibubi/create/foundation/mixin/accessor/ServerLevelAccessor": {
+      "entityTickList": "f_143243_:Lnet/minecraft/world/level/entity/EntityTickList;"
+    },
+    "com/simibubi/create/foundation/mixin/client/GameRendererMixin": {
+      "pick(F)V": "Lnet/minecraft/client/renderer/GameRenderer;m_109087_(F)V"
+    },
+    "com/simibubi/create/foundation/mixin/accessor/GameTestHelperAccessor": {
+      "testInfo": "f_127595_:Lnet/minecraft/gametest/framework/GameTestInfo;",
+      "finalCheckAdded": "f_177099_:Z"
+    },
+    "com/simibubi/create/foundation/mixin/WaterWheelFluidSpreadMixin": {
+      "canPassThrough(Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/world/level/material/Fluid;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/Direction;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/material/FluidState;)Z": "Lnet/minecraft/world/level/material/FlowingFluid;m_75963_(Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/world/level/material/Fluid;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/Direction;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/material/FluidState;)Z"
+    },
+    "com/simibubi/create/foundation/mixin/LavaSwimmingMixin": {
+      "travel(Lnet/minecraft/world/phys/Vec3;)V": "Lnet/minecraft/world/entity/LivingEntity;m_7023_(Lnet/minecraft/world/phys/Vec3;)V",
+      "Lnet/minecraft/world/entity/LivingEntity;isInLava()Z": "Lnet/minecraft/world/entity/LivingEntity;m_20077_()Z",
+      "Lnet/minecraft/world/entity/LivingEntity;move(Lnet/minecraft/world/entity/MoverType;Lnet/minecraft/world/phys/Vec3;)V": "Lnet/minecraft/world/entity/LivingEntity;m_6478_(Lnet/minecraft/world/entity/MoverType;Lnet/minecraft/world/phys/Vec3;)V"
+    },
+    "com/simibubi/create/foundation/mixin/TestCommandMixin": {
+      "runTest(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/gametest/framework/MultipleTestTracker;)V": "Lnet/minecraft/gametest/framework/TestCommand;m_127929_(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/gametest/framework/MultipleTestTracker;)V",
+      "Lnet/minecraft/gametest/framework/GameTestRegistry;getTestFunction(Ljava/lang/String;)Lnet/minecraft/gametest/framework/TestFunction;": "Lnet/minecraft/gametest/framework/GameTestRegistry;m_127681_(Ljava/lang/String;)Lnet/minecraft/gametest/framework/TestFunction;"
+    },
+    "com/simibubi/create/foundation/mixin/client/EntityContraptionInteractionMixin": {
+      "spawnSprintParticle": "Lnet/minecraft/world/entity/Entity;m_20076_()V",
+      "move": "Lnet/minecraft/world/entity/Entity;m_6478_(Lnet/minecraft/world/entity/MoverType;Lnet/minecraft/world/phys/Vec3;)V"
+    },
+    "com/simibubi/create/foundation/mixin/client/LevelRendererMixin": {
+      "destroyBlockProgress(ILnet/minecraft/core/BlockPos;I)V": "Lnet/minecraft/client/renderer/LevelRenderer;m_109774_(ILnet/minecraft/core/BlockPos;I)V",
+      "Lnet/minecraft/server/level/BlockDestructionProgress;updateTick(I)V": "Lnet/minecraft/server/level/BlockDestructionProgress;m_139986_(I)V",
+      "removeProgress(Lnet/minecraft/server/level/BlockDestructionProgress;)V": "Lnet/minecraft/client/renderer/LevelRenderer;m_109765_(Lnet/minecraft/server/level/BlockDestructionProgress;)V"
+    },
+    "com/simibubi/create/foundation/mixin/EnchantmentHelperMixin": {
+      "getItemEnchantmentLevel(Lnet/minecraft/world/item/enchantment/Enchantment;Lnet/minecraft/world/item/ItemStack;)I": "Lnet/minecraft/world/item/enchantment/EnchantmentHelper;m_44843_(Lnet/minecraft/world/item/enchantment/Enchantment;Lnet/minecraft/world/item/ItemStack;)I"
+    },
+    "com/simibubi/create/foundation/mixin/client/PlayerRendererMixin": {
+      "getArmPose(Lnet/minecraft/client/player/AbstractClientPlayer;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/client/model/HumanoidModel$ArmPose;": "Lnet/minecraft/client/renderer/entity/player/PlayerRenderer;m_117794_(Lnet/minecraft/client/player/AbstractClientPlayer;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/client/model/HumanoidModel$ArmPose;",
+      "Lnet/minecraft/client/player/AbstractClientPlayer;getItemInHand(Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/item/ItemStack;": "Lnet/minecraft/client/player/AbstractClientPlayer;m_21120_(Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/item/ItemStack;"
+    }
+  },
+  "data": {
+    "searge": {
+      "com/simibubi/create/foundation/mixin/accessor/LivingEntityAccessor": {
+        "spawnItemParticles": "m_21060_(Lnet/minecraft/world/item/ItemStack;I)V"
+      },
+      "com/simibubi/create/foundation/mixin/accessor/GameRendererAccessor": {
+        "getFov": "m_109141_(Lnet/minecraft/client/Camera;FZ)D"
+      },
+      "com/simibubi/create/foundation/mixin/client/HumanoidArmorLayerMixin": {
+        "Lnet/minecraft/world/entity/LivingEntity;getItemBySlot(Lnet/minecraft/world/entity/EquipmentSlot;)Lnet/minecraft/world/item/ItemStack;": "Lnet/minecraft/world/entity/LivingEntity;m_6844_(Lnet/minecraft/world/entity/EquipmentSlot;)Lnet/minecraft/world/item/ItemStack;",
+        "renderArmorPiece(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/EquipmentSlot;ILnet/minecraft/client/model/HumanoidModel;)V": "Lnet/minecraft/client/renderer/entity/layers/HumanoidArmorLayer;m_117118_(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/EquipmentSlot;ILnet/minecraft/client/model/HumanoidModel;)V"
+      },
+      "com/simibubi/create/foundation/mixin/accessor/HumanoidArmorLayerAccessor": {
+        "innerModel": "f_117071_:Lnet/minecraft/client/model/HumanoidModel;",
+        "ARMOR_LOCATION_CACHE": "f_117070_:Ljava/util/Map;",
+        "setPartVisibility": "m_117125_(Lnet/minecraft/client/model/HumanoidModel;Lnet/minecraft/world/entity/EquipmentSlot;)V",
+        "outerModel": "f_117072_:Lnet/minecraft/client/model/HumanoidModel;"
+      },
+      "com/simibubi/create/foundation/mixin/accessor/DispenserBlockAccessor": {
+        "getDispenseMethod": "m_7216_(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/core/dispenser/DispenseItemBehavior;"
+      },
+      "com/simibubi/create/foundation/mixin/accessor/ParticleEngineAccessor": {
+        "providers": "f_107293_:Ljava/util/Map;"
+      },
+      "com/simibubi/create/foundation/mixin/client/MapRendererMapInstanceMixin": {
+        "net.minecraft.client.gui.MapRenderer$MapInstance": "net/minecraft/client/gui/MapRenderer$MapInstance",
+        "draw(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;ZI)V": "Lnet/minecraft/client/gui/MapRenderer$MapInstance;m_93291_(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;ZI)V"
+      },
+      "com/simibubi/create/foundation/mixin/client/CameraMixin": {
+        "Lnet/minecraft/client/Camera;getMaxZoom(D)D": "Lnet/minecraft/client/Camera;m_90566_(D)D",
+        "Lnet/minecraft/client/Camera;setup(Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/world/entity/Entity;ZZF)V": "Lnet/minecraft/client/Camera;m_90575_(Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/world/entity/Entity;ZZF)V"
+      },
+      "com/simibubi/create/foundation/mixin/client/HeavyBootsOnPlayerMixin": {
+        "isUnderWater()Z": "Lnet/minecraft/client/player/LocalPlayer;m_5842_()Z"
+      },
+      "com/simibubi/create/foundation/mixin/client/WindowResizeMixin": {
+        "resizeDisplay()V": "Lnet/minecraft/client/Minecraft;m_5741_()V"
+      },
+      "com/simibubi/create/foundation/mixin/client/FixNormalScalingMixin": {
+        "Lnet/minecraft/util/Mth;fastInvCubeRoot(F)F": "Lnet/minecraft/util/Mth;m_14199_(F)F",
+        "scale(FFF)V": "Lcom/mojang/blaze3d/vertex/PoseStack;m_85841_(FFF)V",
+        "Lcom/mojang/math/Matrix3f;mul(F)V": "Lcom/mojang/math/Matrix3f;m_8156_(F)V"
+      },
+      "com/simibubi/create/foundation/mixin/accessor/AgeableListModelAccessor": {
+        "headParts": "m_5607_()Ljava/lang/Iterable;",
+        "bodyParts": "m_5608_()Ljava/lang/Iterable;"
+      },
+      "com/simibubi/create/foundation/mixin/ClientboundMapItemDataPacketMixin": {
+        "<init>(IBZLjava/util/Collection;Lnet/minecraft/world/level/saveddata/maps/MapItemSavedData$MapPatch;)V": "Lnet/minecraft/network/protocol/game/ClientboundMapItemDataPacket;<init>(IBZLjava/util/Collection;Lnet/minecraft/world/level/saveddata/maps/MapItemSavedData$MapPatch;)V",
+        "write(Lnet/minecraft/network/FriendlyByteBuf;)V": "Lnet/minecraft/network/protocol/game/ClientboundMapItemDataPacket;m_5779_(Lnet/minecraft/network/FriendlyByteBuf;)V",
+        "<init>(Lnet/minecraft/network/FriendlyByteBuf;)V": "Lnet/minecraft/network/protocol/game/ClientboundMapItemDataPacket;<init>(Lnet/minecraft/network/FriendlyByteBuf;)V"
+      },
+      "com/simibubi/create/foundation/mixin/CustomItemUseEffectsMixin": {
+        "shouldTriggerItemUseEffects()Z": "Lnet/minecraft/world/entity/LivingEntity;m_21332_()Z",
+        "triggerItemUseEffects(Lnet/minecraft/world/item/ItemStack;I)V": "Lnet/minecraft/world/entity/LivingEntity;m_21137_(Lnet/minecraft/world/item/ItemStack;I)V",
+        "Lnet/minecraft/world/item/ItemStack;getUseAnimation()Lnet/minecraft/world/item/UseAnim;": "Lnet/minecraft/world/item/ItemStack;m_41780_()Lnet/minecraft/world/item/UseAnim;"
+      },
+      "com/simibubi/create/foundation/mixin/EntityMixin": {
+        "fireImmune()Z": "Lnet/minecraft/world/entity/Entity;m_5825_()Z"
+      },
+      "com/simibubi/create/foundation/mixin/MapItemSavedDataMixin": {
+        "checkBanners(Lnet/minecraft/world/level/BlockGetter;II)V": "Lnet/minecraft/world/level/saveddata/maps/MapItemSavedData;m_77930_(Lnet/minecraft/world/level/BlockGetter;II)V",
+        "save(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/nbt/CompoundTag;": "Lnet/minecraft/world/level/saveddata/maps/MapItemSavedData;m_7176_(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/nbt/CompoundTag;",
+        "load(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/world/level/saveddata/maps/MapItemSavedData;": "Lnet/minecraft/world/level/saveddata/maps/MapItemSavedData;m_164807_(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/world/level/saveddata/maps/MapItemSavedData;"
+      },
+      "com/simibubi/create/foundation/mixin/accessor/NbtAccounterAccessor": {
+        "usage": "f_128919_:J"
+      },
+      "com/simibubi/create/foundation/mixin/accessor/AbstractProjectileDispenseBehaviorAccessor": {
+        "getUncertainty": "m_7101_()F",
+        "getPower": "m_7104_()F",
+        "getProjectile": "m_6895_(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/Position;Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/entity/projectile/Projectile;"
+      },
+      "com/simibubi/create/foundation/mixin/accessor/ServerLevelAccessor": {
+        "entityTickList": "f_143243_:Lnet/minecraft/world/level/entity/EntityTickList;"
+      },
+      "com/simibubi/create/foundation/mixin/client/GameRendererMixin": {
+        "pick(F)V": "Lnet/minecraft/client/renderer/GameRenderer;m_109087_(F)V"
+      },
+      "com/simibubi/create/foundation/mixin/accessor/GameTestHelperAccessor": {
+        "testInfo": "f_127595_:Lnet/minecraft/gametest/framework/GameTestInfo;",
+        "finalCheckAdded": "f_177099_:Z"
+      },
+      "com/simibubi/create/foundation/mixin/WaterWheelFluidSpreadMixin": {
+        "canPassThrough(Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/world/level/material/Fluid;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/Direction;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/material/FluidState;)Z": "Lnet/minecraft/world/level/material/FlowingFluid;m_75963_(Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/world/level/material/Fluid;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/Direction;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/material/FluidState;)Z"
+      },
+      "com/simibubi/create/foundation/mixin/LavaSwimmingMixin": {
+        "travel(Lnet/minecraft/world/phys/Vec3;)V": "Lnet/minecraft/world/entity/LivingEntity;m_7023_(Lnet/minecraft/world/phys/Vec3;)V",
+        "Lnet/minecraft/world/entity/LivingEntity;isInLava()Z": "Lnet/minecraft/world/entity/LivingEntity;m_20077_()Z",
+        "Lnet/minecraft/world/entity/LivingEntity;move(Lnet/minecraft/world/entity/MoverType;Lnet/minecraft/world/phys/Vec3;)V": "Lnet/minecraft/world/entity/LivingEntity;m_6478_(Lnet/minecraft/world/entity/MoverType;Lnet/minecraft/world/phys/Vec3;)V"
+      },
+      "com/simibubi/create/foundation/mixin/TestCommandMixin": {
+        "runTest(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/gametest/framework/MultipleTestTracker;)V": "Lnet/minecraft/gametest/framework/TestCommand;m_127929_(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/gametest/framework/MultipleTestTracker;)V",
+        "Lnet/minecraft/gametest/framework/GameTestRegistry;getTestFunction(Ljava/lang/String;)Lnet/minecraft/gametest/framework/TestFunction;": "Lnet/minecraft/gametest/framework/GameTestRegistry;m_127681_(Ljava/lang/String;)Lnet/minecraft/gametest/framework/TestFunction;"
+      },
+      "com/simibubi/create/foundation/mixin/client/EntityContraptionInteractionMixin": {
+        "spawnSprintParticle": "Lnet/minecraft/world/entity/Entity;m_20076_()V",
+        "move": "Lnet/minecraft/world/entity/Entity;m_6478_(Lnet/minecraft/world/entity/MoverType;Lnet/minecraft/world/phys/Vec3;)V"
+      },
+      "com/simibubi/create/foundation/mixin/client/LevelRendererMixin": {
+        "destroyBlockProgress(ILnet/minecraft/core/BlockPos;I)V": "Lnet/minecraft/client/renderer/LevelRenderer;m_109774_(ILnet/minecraft/core/BlockPos;I)V",
+        "Lnet/minecraft/server/level/BlockDestructionProgress;updateTick(I)V": "Lnet/minecraft/server/level/BlockDestructionProgress;m_139986_(I)V",
+        "removeProgress(Lnet/minecraft/server/level/BlockDestructionProgress;)V": "Lnet/minecraft/client/renderer/LevelRenderer;m_109765_(Lnet/minecraft/server/level/BlockDestructionProgress;)V"
+      },
+      "com/simibubi/create/foundation/mixin/EnchantmentHelperMixin": {
+        "getItemEnchantmentLevel(Lnet/minecraft/world/item/enchantment/Enchantment;Lnet/minecraft/world/item/ItemStack;)I": "Lnet/minecraft/world/item/enchantment/EnchantmentHelper;m_44843_(Lnet/minecraft/world/item/enchantment/Enchantment;Lnet/minecraft/world/item/ItemStack;)I"
+      },
+      "com/simibubi/create/foundation/mixin/client/PlayerRendererMixin": {
+        "getArmPose(Lnet/minecraft/client/player/AbstractClientPlayer;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/client/model/HumanoidModel$ArmPose;": "Lnet/minecraft/client/renderer/entity/player/PlayerRenderer;m_117794_(Lnet/minecraft/client/player/AbstractClientPlayer;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/client/model/HumanoidModel$ArmPose;",
+        "Lnet/minecraft/client/player/AbstractClientPlayer;getItemInHand(Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/item/ItemStack;": "Lnet/minecraft/client/player/AbstractClientPlayer;m_21120_(Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/item/ItemStack;"
+      }
+    }
+  }
+}

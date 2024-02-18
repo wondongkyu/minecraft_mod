@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Specification-Title: create
+Specification-Vendor: simibubi
+Specification-Version: 1
+Implementation-Title: create-1.18.2
+Implementation-Version: 0.5.1.c
+Implementation-Vendor: simibubi
+Implementation-Timestamp: 2023-07-05T00:09:42+0200
+MixinConfigs: create.mixins.json
+
